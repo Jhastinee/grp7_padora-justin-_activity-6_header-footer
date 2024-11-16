@@ -1,0 +1,43 @@
+
+h1 {
+    background-color: transparent;
+}
+body {
+    background-image: url("background group.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+    width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.register-btn, .pending-btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.pending-btn {
+    background-color: #28a745;
+}
+
+.register-btn:hover, .pending-btn:hover {
+    background-color: #0056b3;
+}
